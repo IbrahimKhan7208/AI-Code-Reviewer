@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.custom-editor textarea {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent;
+}
+
+.markdown-preview {
+  white-space: pre-wrap;
+  line-height: 1.1;
+  font-size: 1.1rem;
+  padding: 1.1rem;
+}
+
+.heading{
+  font-family: sans-serif;
+}
+
+::selection{
+  color:bisque
+}
