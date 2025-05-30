@@ -1,5 +1,4 @@
 async function generateContent(prompt) {
-    console.log(process.env.GOOGLE_GEMINI_KEY)
     const { GoogleGenerativeAI } = await import("@google/generative-ai");
 
     const ai = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_KEY);
