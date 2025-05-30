@@ -20,7 +20,7 @@ const App = () => {
 
   async function reviewCode() {
     setLoading(true)
-    let response = await axios.post("http://localhost:3000/ai/get-response", {
+    let response = await axios.post("https://ai-code-reviewer-backend-yy8k.onrender.com/ai/get-response", {
       code,
     });
     setReview(response.data);
